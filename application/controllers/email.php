@@ -51,8 +51,8 @@ class Email extends Controller
 			$message = "Message from: " . $name . "<br/>" ;
 			$message .= "Phone Number: " . $phone . "<br/>";
 			$message .= "Subject: " . $subject . "<br/>";
-			$message .= "Comments: " . "<br/>" . $comments;
-            $message .= "Are you human?: " . "<br/>" . $human;
+			$message .= "Comments: " . "<br/>" . $comments . "<br/>";
+            $message .= "Are you human?: " . "<br/>" . $human . "<br/>";
             $message .= "Are you human (again)?: " . "<br/>" . $human_again;
 			
 			$redirect = "/site/contact_confirmation";

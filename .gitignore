@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+### CodeIgniter template
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+.gitignore
+assets/.DS_Store
+assets/css/.DS_Store
+assets/css/redmond/.DS_Store
+cgi-bin/
